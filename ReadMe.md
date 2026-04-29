@@ -6,10 +6,10 @@
 Dieses Projekt dient als Vorlage für ein kleines Softwareentwicklungs- und Projektmanagement-Projekt. Es enthält verschiedene Aufgaben, die jeweils in separaten Dateien bearbeitet werden.
 
 ## Aufgaben
-- Aufgabe5.py: [Kurze Beschreibung der Aufgabe]
-- Aufgabe6.py: [Kurze Beschreibung der Aufgabe]
-- Aufgabe7.py: [Kurze Beschreibung der Aufgabe]
-- Aufgabe8.py: [Kurze Beschreibung der Aufgabe]
+- Aufgabe5.py: [Bisektionsverfahrensolver für beliebige Funktion & Testfälle]
+- Aufgabe6.py: [Regula Falsi Solver für beliebige Funktion & Testfälle]
+- Aufgabe7.py: [Darstellung Bisektionsverfahren mit Grafik]
+- Aufgabe8.py: [Bestimmte Polynomfunktion gelöst & Wichtigkeit von e gezeigt]
 - Aufgabe9.py: [Kurze Beschreibung der Aufgabe]
 
 ## Voraussetzungen
