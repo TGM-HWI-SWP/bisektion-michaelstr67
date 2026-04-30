@@ -67,11 +67,30 @@ def bisektion_grafik(f, a, b, epsilon)-> float:
 # Printer für die Aufgabe 7
 def plotter():
     print("=== Aufgabe 7 ===")
+    print("1 - Eigene Funktion")
+    print("2 - Testfall")
 
-    f = funktion_aus_text_erstellen("x**2 - 25")
-    x = bisektion_grafik(f, 0, 25, 0.00001)
+    wahl = input("Auswahl: ") #Eingabe der Auswahl für die Funktion oder den Testfall
 
-    print("Nullstelle:", x)
+    if wahl == "1": #Eingabe der Funktion und des Intervalls sowie der gewünschten Genauigkeit
+        formel = input("Funktion: ") #Eingabe der Funktion als String
+        a = float(input("a: ")) #Eingabe des Intervallanfangs
+        b = float(input("b: ")) #Eingabe des Intervallendes
+        epsilon = float(input("epsilon: ")) #Eingabe der gewünschten Genauigkeit
+
+        f = funktion_aus_text_erstellen(formel) #Erstellung der Funktion aus dem eingegebenen String
+        x = bisektion_grafik(f, a, b, epsilon) #Berechnung der Nullstelle mit dem Bisektions-Verfahren und Anzeige der Grafiken
+
+        print("Nullstelle:", x) #Ausgabe der gefundenen Nullstelle
+
+    elif wahl == "2": #Testfall für die Funktion x^2 - 25, um die Quadratwurzel von 25 zu finden
+        f = funktion_aus_text_erstellen("x**2 - 25") 
+        x = bisektion_grafik(f, 0, 25, 0.00001)
+
+        print("Nullstelle:", x) #Ausgabe der gefundenen Nullstelle für den Testfall
+
+    else:
+        print("Ungültige Auswahl.") #Ausgabe bei ungültiger Auswahl
 
 
 if __name__ == "__main__":

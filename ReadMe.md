@@ -10,10 +10,12 @@ Dieses Projekt dient als Vorlage für ein kleines Softwareentwicklungs- und Proj
 - Aufgabe6.py: [Regula Falsi Solver für beliebige Funktion & Testfälle]
 - Aufgabe7.py: [Darstellung Bisektionsverfahren mit Grafik]
 - Aufgabe8.py: [Bestimmte Polynomfunktion gelöst & Wichtigkeit von e gezeigt]
-- Aufgabe9.py: [Kurze Beschreibung der Aufgabe]
+- Aufgabe9.py: [Krümmungsradius und Länge einer Leitung]
 
 ## Voraussetzungen
 - Python 3.x
+- math library
+  matplotlib library
 
 ## Ausführung
 Jede Aufgabe kann einzeln ausgeführt werden:

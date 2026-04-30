@@ -78,6 +78,9 @@ def solver():
 
             print("n =", n, "| numerisch:", x, "| exakt:", math.sqrt(n))
 
+    else:
+        print("Ungültige Auswahl.") #Ausgabe bei ungültiger Auswahl
+
 
 if __name__ == "__main__":
     solver()
